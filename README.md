@@ -44,11 +44,13 @@ The following images show the web application's appearance and functionality (wo
 ## Installation
 
 Have Node.js
+
 Insall npm
 
 ## Links
 
 This is my repository
+
 [Repository](https://github.com/Gera1313/11-notes)
 
 However, have not uploaded to Heroku yet becuase I have not finished the project. 
