@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
-app.use("/htmlRoutes", htmlRoutes)
+// app.use("/htmlRoutes", htmlRoutes)
 // app.use("/", apiRoutes)
 app.use('/api', api)
 
