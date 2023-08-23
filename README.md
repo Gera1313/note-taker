@@ -43,10 +43,18 @@ The following images show the web application's appearance and functionality (wo
 
 ## Installation
 
+Have Node.js
+Insall npm
+
 ## Links
+
+This is my repository
 [Repository](https://github.com/Gera1313/11-notes)
 
+However, have not uploaded to Heroku yet becuase I have not finished the project. 
+
 ## Credits
+
 [Learn Express JS In 35 Minutes](https://youtu.be/SccSCuHhOw0)
 
 Would like to thank my classmates and work colleagues for the guidance. 
@@ -55,5 +63,5 @@ Also, big help thanks to the Module 11 activities.
 
 
 ## Licenses
-MIT License
 
+MIT License
