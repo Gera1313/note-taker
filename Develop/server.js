@@ -3,7 +3,7 @@ const express = require("express")
 // const apiRoutes = require("./routes/")
 const htmlRoutes = require("./routes/index")
 
-app.listen(3001)
+const PORT = 3001
 
 const app = express()
 
@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.static('public'))
 // app.use("/htmlRoutes", htmlRoutes)
 // app.use("/", apiRoutes)
-app.use('/api', api)
+// app.use('/api', api)
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/index.html"))
