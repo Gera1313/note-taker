@@ -53,7 +53,7 @@ The following images show the web application's appearance and functionality (wo
 
 This is my repository
 
-[Repository](https://github.com/Gera1313/11-notes)
+[Repository](https://github.com/Gera1313/note-taker)
 
 However, have not uploaded to Heroku yet becuase I have not finished the project. 
 
