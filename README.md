@@ -2,7 +2,7 @@
 
 ## My Project
 
-To create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. This project will help me practice my Express.js skills. 
+To create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. This project will help me practice my Express.js skills. It will demonstrate I can connect the back-end with the front-end. 
 
 ## User Story
 
@@ -39,7 +39,9 @@ Insall npm
 
 ## Notes
 
+UPDATES: 
 
+01/12/24 - Picking up where I left off. I will fix the issues with this project. 
 
 ## Usage
 
