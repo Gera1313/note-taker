@@ -31,6 +31,15 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
+## Installation
+
+Have Node.js
+
+Insall npm
+
+## Notes
+
+
 
 ## Usage
 
@@ -39,13 +48,6 @@ The following images show the web application's appearance and functionality (wo
 ![This is the home page](./Assets/Home.png)
 
 ![However, I keep running into trouble. It is a work in progress](./Assets/Error.png)
-
-
-## Installation
-
-Have Node.js
-
-Insall npm
 
 ## Links
 
@@ -63,6 +65,6 @@ Would like to thank my classmates and work colleagues for the guidance.
 
 Also, big help thanks to the Module 11 activities. 
 
-## Licenses
+## License
 
-MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
