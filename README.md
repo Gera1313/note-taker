@@ -1,8 +1,8 @@
-# Express.js: Note Taker
+# Note Taker
 
-## The Task
+## My Project
 
-To create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+To create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. This project will help me practice my Express.js skills. 
 
 ## User Story
 
@@ -62,7 +62,6 @@ However, have not uploaded to Heroku yet becuase I have not finished the project
 Would like to thank my classmates and work colleagues for the guidance. 
 
 Also, big help thanks to the Module 11 activities. 
-
 
 ## Licenses
 
