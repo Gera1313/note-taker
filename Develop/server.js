@@ -7,12 +7,18 @@ const notesRoutes = require("./routes/notes");
 // const htmlRoutes = require("./routes/index"); removed
 
 const PORT = 3001;
-
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
+
+// Use the HTML routes
+app.use("/", htmlRoutes);
+
+// Use the notes API routes
+app.use("/api", notesRoutes);
+
 // app.use("/htmlRoutes", htmlRoutes)
 // app.use("/", apiRoutes)
 // app.use('/api', api)
