@@ -1,8 +1,10 @@
 const express = require("express");
 const path = require("path");
+const htmlRoutes = require("./routes/index");
+const notesRoutes = require("./routes/notes");
 
 // const apiRoutes = require("./routes/")
-const htmlRoutes = require("./routes/index");
+// const htmlRoutes = require("./routes/index"); removed
 
 const PORT = 3001;
 
@@ -15,16 +17,17 @@ app.use(express.static("public"));
 // app.use("/", apiRoutes)
 // app.use('/api', api)
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/index.html"));
-});
+// Removed the following: 
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "/public/index.html"));
+// });
 
-app.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/notes.html"));
-});
+// app.get("/notes", (req, res) => {
+//   res.sendFile(path.join(__dirname, "/public/notes.html"));
+// });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "/public/index.html"));
+// });
 
 app.listen(PORT, () => console.log(`Listening for requests on port ${PORT}!`));
