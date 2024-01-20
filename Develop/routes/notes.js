@@ -25,5 +25,3 @@ router.post("/notes", (req, res) => {
 });
 
 module.exports = router;
-
-// NOTE: looked at INS and STU code from the Modules to get boilerplate code and examples. 
