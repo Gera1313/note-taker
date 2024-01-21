@@ -4,13 +4,12 @@ const path = require('path');
 const db = require("../db/db.json");
 
 router.get("/api/notes", async (req, res) => {
-    const dbJson = await 
-    console.log('GET /notes route hit');
+    const db = await JSON.parse(fs.readFileSync("db/db.json", "utf8"));
     res.json(db);
 });
 
 router.post("/notes", (req, res) => {
-    console.log('POST /notes route hit');
+    // console.log('POST /notes route hit');
     const note = req.body;
     note.id = (db.length + 1).toString();
 
