@@ -3,7 +3,7 @@ const path = require("path");
 const htmlRoutes = require("./routes/index");
 const notesRoutes = require("./routes/notes");
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Serve static files
