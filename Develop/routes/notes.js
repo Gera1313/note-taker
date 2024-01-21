@@ -3,7 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const db = require("../db/db.json");
 
-router.get("/notes", (req, res) => {
+router.get("/api/notes", async (req, res) => {
+    const dbJson = await 
     console.log('GET /notes route hit');
     res.json(db);
 });
