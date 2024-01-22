@@ -21,7 +21,14 @@ router.post("/api/notes", (req, res) => {
 
 // Delete route
 router.delete("/api/notes/:id", (req, res) => {
-    
+    const noteId = req.params.id;
+    let db = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+
+    // Find the index of the note with the given ID
+    const noteIndex = db.findIndex((note) => note.id === noteId);
+
+    // If note is not found, remove it from the array
+    if 
 });
 
 module.exports = router;
