@@ -28,7 +28,12 @@ router.delete("/api/notes/:id", (req, res) => {
     const noteIndex = db.findIndex((note) => note.id === noteId);
 
     // If note is not found, remove it from the array
-    if 
+    if (noteIndex !== -1) {
+        db.splice(noteIndex, 1);
+
+        // Write updated notes back to the db.json file
+        fs.writeFileSync("db/db.json", JSON.stringify(db));
+    }
 });
 
 module.exports = router;
