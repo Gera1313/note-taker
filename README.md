@@ -41,15 +41,15 @@ Insall npm
 
 UPDATES: 
 
-01/12/24 - Picking up where I left off. I will fix the issues with this project. 
+01/23/24 - All issues with the web application have been resolved. Have yet to deploy. 
 
 ## Usage
 
-The following images show the web application's appearance and functionality (work in progress):
+The following images show the web application's appearance and functionality:
 
 ![This is the home page](./Assets/Home.png)
 
-![However, I keep running into trouble. It is a work in progress](./Assets/Error.png)
+![This is where you take notes and save them](./Assets/notes.png)
 
 ## Links
 
@@ -57,15 +57,11 @@ This is my repository
 
 [Repository](https://github.com/Gera1313/note-taker)
 
-However, have not uploaded to Heroku yet becuase I have not finished the project. 
+Will deploy to Heroku soon! Stay tuned!  
 
 ## Credits
 
-[Learn Express JS In 35 Minutes](https://youtu.be/SccSCuHhOw0)
-
-Would like to thank my classmates and work colleagues for the guidance. 
-
-Also, big help thanks to the Module 11 activities. 
+[Learn Express JS In 35 Minutes](https://youtu.be/SccSCuHhOw0) 
 
 ## License
 
