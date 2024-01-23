@@ -7,7 +7,7 @@ router.get("/api/notes", async (req, res) => {
   res.json(db);
 });
 
-// Receives a new note to save on the request body, adds it to the db.json file, 
+// Receives a new note to save on the request body, adds it to the db.json file,
 // then returns the new note to the client.
 router.post("/api/notes", (req, res) => {
   const db = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
@@ -21,23 +21,23 @@ router.post("/api/notes", (req, res) => {
 
 // Delete route
 router.delete("/api/notes/:id", (req, res) => {
-    const noteId = req.params.id;
-    let db = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+  const noteId = req.params.id;
+  let db = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
 
-    // Find the index of the note with the given ID
-    const noteIndex = db.findIndex((note) => note.id === noteId);
+  // Find the index of the note with the given ID
+  const noteIndex = db.findIndex((note) => note.id === noteId);
 
-    // If note is not found, remove it from the array
-    if (noteIndex !== -1) {
-        db.splice(noteIndex, 1);
+  // If note is not found, remove it from the array
+  if (noteIndex !== -1) {
+    db.splice(noteIndex, 1);
 
-        // Write updated notes back to the db.json file
-        fs.writeFileSync("db/db.json", JSON.stringify(db));
+    // Write updated notes back to the db.json file
+    fs.writeFileSync("db/db.json", JSON.stringify(db));
 
-        res.json(db);
-    } else {
-        res.status(404).json({ message: "note not found" });
-    }
+    res.json(db);
+  } else {
+    res.status(404).json({ message: "note not found" });
+  }
 });
 
 module.exports = router;
