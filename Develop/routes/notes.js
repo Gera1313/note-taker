@@ -33,6 +33,10 @@ router.delete("/api/notes/:id", (req, res) => {
 
         // Write updated notes back to the db.json file
         fs.writeFileSync("db/db.json", JSON.stringify(db));
+
+        res.json(db);
+    } else {
+        res.status(404).json({ message: "note not found" });
     }
 });
 
