@@ -41,7 +41,7 @@ Insall npm
 
 UPDATES: 
 
-01/23/24 - All issues with the web application have been resolved. Have yet to deploy. 
+01/23/24 - All issues with the web application have been resolved. Have yet to deploy. Keep getting errors with Heroku.
 
 ## Usage
 
