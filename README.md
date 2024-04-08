@@ -41,7 +41,7 @@ Insall npm
 
 UPDATES: 
 
-01/23/24 - All issues with the web application have been resolved. Have yet to deploy. Keep getting errors with Heroku.
+01/23/24 - All issues with the web application have been resolved. Working 100%. 
 
 ## Usage
 
@@ -53,11 +53,9 @@ The following images show the web application's appearance and functionality:
 
 ## Links
 
-This is my repository
-
 [Repository](https://github.com/Gera1313/note-taker)
 
-Will deploy to Heroku soon! Stay tuned!  
+[Deployed](https://evening-peak-83307-f56098080a83.herokuapp.com/) 
 
 ## Credits
 
